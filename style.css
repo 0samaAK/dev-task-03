@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(0, 0, 36);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(15, 15, 54);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 200);
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 50px;
+  padding: 15px;
+  background-color: rgb(15, 15, 54);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.firstsec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 150px 0;
+}
+
+.firstsec > div {
+  width: 30%;
+}
+
+.leftsec {
+  font-size: 3rem;
+}
+
+.rightsec img {
+  width: 100%;
+}
+
+.color {
+  color: rgb(125, 60, 175);
+}
+
+#element {
+  color: rgb(125, 60, 175);
+}
+
+.secondsec {
+  margin: auto;
+  max-width: 80vw;
+  height: 80vh;
+}
+
+.secondsec h1 {
+  font-size: 2rem;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 80px;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 50px 0;
+  display: flex;
+}
+
+.vertical {
+  height: 90px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+
+.img-top {
+  width: 25px;
+  position: relative;
+  top: -35px;
+  left: -10px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  color: gray;
+  top: 80px;
+  width: 150px;
+  font-size: 10px;
+}
+
+footer {
+  background-color: rgb(15, 15, 54);
+  height: 250px;
+}
+
+.footer {
+  display: flex;
+  padding: 25px 125px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-top: 15px;
+}
+
+
+.footer div {
+  width: 250px;
+}
+
+.text-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+.footer-1 h3 {
+  margin: 10px;
+}
+
+.footer-1 img {
+  margin-top: 15px;
+  height: 150px;
+  width: 150px;
+}
